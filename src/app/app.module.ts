@@ -1,9 +1,9 @@
+//Import components and modules here...
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { landingPageModule } from "app/landingPage/landingPage.module";
 import { AppComponent } from './app.component';
-import { PersonModule } from "app/person/person.module";
-import { PersonRatingComponent } from "app/person/person-rating/person-rating.component";
 
 @NgModule({
   declarations: [
@@ -11,7 +11,7 @@ import { PersonRatingComponent } from "app/person/person-rating/person-rating.co
   ],
   imports: [
     BrowserModule,
-    PersonModule
+    landingPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
