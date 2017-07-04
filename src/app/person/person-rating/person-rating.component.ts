@@ -8,6 +8,7 @@ import { PersonRatingService } from "app/services/person-rating.service";
   styleUrls: ['./person-rating.component.css']
 })
 export class PersonRatingComponent implements OnInit {
+  
 
   person: Person = { name: "", age: 0, rating: 100 };
   images: any[];
