@@ -4,14 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { landingPageModule } from "app/landingPage/landingPage.module";
 import { AppComponent } from './app.component';
+import { RouterModule } from "@angular/router";
 
 @NgModule({
   declarations: [
     AppComponent
+ 
   ],
   imports: [
     BrowserModule,
-    landingPageModule
+    landingPageModule,
+       RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
