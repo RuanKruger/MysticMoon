@@ -9,8 +9,9 @@ import { routes, RouterRoutingModule } from "app/landingPage/router/router-routi
 import { AboutComponent } from './about/about.component';
 import { GallaryComponent } from './gallary/gallary.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { HelpComponent } from './help/help.component';
 import { RouterModule } from "app/landingPage/router/router.module";
+import { HomeComponent } from './home/home.component';
+import { ItemsComponent } from './items/items.component';
 
 @NgModule({
   imports: [
@@ -25,7 +26,8 @@ import { RouterModule } from "app/landingPage/router/router.module";
   AboutComponent,
   GallaryComponent,
   ContactUsComponent,
-  HelpComponent],
+  HomeComponent,
+  ItemsComponent],
   exports: [
   ],
   providers: [PersonRatingService]
