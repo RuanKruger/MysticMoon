@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { landingPageModule } from "app/landingPage/landingPage.module";
 import { AppComponent } from './app.component';
-import { RouterModule } from "@angular/router";
+import { RouterRoutingModule } from "app/routing.module";
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { RouterModule } from "@angular/router";
   imports: [
     BrowserModule,
     landingPageModule,
-       RouterModule
+    RouterRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

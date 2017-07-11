@@ -1,15 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PersonRatingService } from "app/services/person-rating.service";
 import { GalleriaModule } from 'primeng/primeng';
 import { FormsModule } from "@angular/forms";
 
-import { routes, RouterRoutingModule } from "app/landingPage/router/router-routing.module";
 
 import { AboutComponent } from './about/about.component';
 import { GallaryComponent } from './gallary/gallary.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { RouterModule } from "app/landingPage/router/router.module";
 import { HomeComponent } from './home/home.component';
 import { ItemsComponent } from './items/items.component';
 
@@ -17,10 +14,7 @@ import { ItemsComponent } from './items/items.component';
   imports: [
     CommonModule,
     GalleriaModule,
-    FormsModule,
-    RouterRoutingModule,
-    routes,
-    RouterModule
+    FormsModule
   ],
   declarations: [
   AboutComponent,
@@ -30,6 +24,6 @@ import { ItemsComponent } from './items/items.component';
   ItemsComponent],
   exports: [
   ],
-  providers: [PersonRatingService]
+  providers: []
 })
 export class landingPageModule { }

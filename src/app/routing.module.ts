@@ -8,17 +8,7 @@ import { HomeComponent } from "app/landingPage/home/home.component";
 import { CommonModule } from "@angular/common";
 import { ItemsComponent } from "app/landingPage/items/items.component";
 
-
-@NgModule({
-  imports: [
-    CommonModule,
-  ],
-  declarations: []
-})
-
-export class RouterRoutingModule { }
-
-export const router: Routes = [
+const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
   { path: 'about', component: AboutComponent },
   { path: 'items', component: ItemsComponent },
@@ -27,6 +17,13 @@ export const router: Routes = [
   { path: 'home', component: HomeComponent }
 ];
 
-export const routes: ModuleWithProviders = RouterModule.forRoot(router);
+@NgModule({
+  imports: [
+    RouterModule.forRoot(routes),
+  ],
+  exports:[RouterModule]
+})
+
+export class RouterRoutingModule { }
 
 
