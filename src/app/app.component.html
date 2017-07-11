@@ -1,4 +1,4 @@
-<body class="body">
+<body class="wrapper">
   <div class="Main ">
     <div class="navbar navbar-default">
       <!--navbar-fixed-top-->
@@ -16,7 +16,7 @@
             <li>
               <a routerLink="home">Home</a>
             </li>
-             <li>
+            <li>
               <a routerLink="items">Items</a>
             </li>
             <li>
@@ -32,7 +32,9 @@
         </div>
       </div>
     </div>
-    <router-outlet></router-outlet>
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
     <div>
       <footer class="middle">Mystic Moon Copyright © 2017</footer>
     </div>
