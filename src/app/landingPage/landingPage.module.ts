@@ -9,12 +9,14 @@ import { GallaryComponent } from './gallary/gallary.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HomeComponent } from './home/home.component';
 import { ItemsComponent } from './items/items.component';
+import { NgxGalleryModule } from 'ngx-gallery';
 
 @NgModule({
   imports: [
     CommonModule,
     GalleriaModule,
-    FormsModule
+    FormsModule,
+    NgxGalleryModule
   ],
   declarations: [
   AboutComponent,
