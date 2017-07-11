@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.galleryOptions = [
       {
-        width: '100%',
+        width: '90%',
         height: '700px',
         thumbnailsColumns: 4,
         imageAnimation: NgxGalleryAnimation.Fade,
