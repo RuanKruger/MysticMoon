@@ -16,12 +16,15 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.galleryOptions = [
       {
-        width: '90%',
-        height: '700px',
+        width: '100%',
+        height: '600px',
         thumbnailsColumns: 4,
-        imageAnimation: NgxGalleryAnimation.Fade,
+        imageAnimation: NgxGalleryAnimation.Slide,
         imageSwipe: true,
-        imageSize: NgxGalleryImageSize.Cover
+        imageArrowsAutoHide: true,
+        thumbnailsArrowsAutoHide: true,
+        imageSize: NgxGalleryImageSize.Cover,
+        thumbnails: false
       },
       // max-width 800
       {

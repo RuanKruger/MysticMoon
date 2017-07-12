@@ -8,6 +8,7 @@
 
 body, html {
     height:100%;
+    background-color:cyan;
 }
 .align-center{
     align-content: center;
