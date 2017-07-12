@@ -9,6 +9,7 @@ footer{
    height:60px;   /* Height of the footer */
    background:#022f5a;
    border-radius: 3px;
+   text-align-last: center;
 }
 .back-ground{
     background-image: url(/assets/images/galleria/Chrysanthemum.jpg);
