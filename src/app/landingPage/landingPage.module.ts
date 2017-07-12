@@ -10,17 +10,20 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HomeComponent } from './home/home.component';
 import { ItemsComponent } from './items/items.component';
 import { NgxGalleryModule } from 'ngx-gallery';
+import { BrowserModule } from "@angular/platform-browser";
 
 @NgModule({
   imports: [
     CommonModule,
     GalleriaModule,
     FormsModule,
-    NgxGalleryModule
+    NgxGalleryModule,
+    BrowserModule
+
   ],
   declarations: [
   AboutComponent,
-  GallaryComponent,
+  GallaryComponent, 
   ContactUsComponent,
   HomeComponent,
   ItemsComponent],

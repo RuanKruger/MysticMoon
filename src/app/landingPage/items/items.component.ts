@@ -14,9 +14,7 @@ export class ItemsComponent implements OnInit {
   constructor(service: ItemsService) {
     this.products = service.getProducts();
   }
-
   ngOnInit() {
     this.products
   }
-
 }
