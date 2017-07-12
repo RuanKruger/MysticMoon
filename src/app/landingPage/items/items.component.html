@@ -1,0 +1,10 @@
+<div class="list-container">
+   
+        <div *ngFor="let item of products">
+            <div class="product">
+                <img src="{{item.ImageSrc}}" />
+                <div>{{item.Name}}</div>
+                <div class="price">{{item.Price | currency: 'USD':true:'1.0'}}</div>
+            </div>
+        </div>
+</div>
