@@ -1,0 +1,9 @@
+.image-sizer{
+    width: 500px;
+    height: 400px;
+}
+
+.image-sizer img {
+    width: 100%;
+    height: auto;
+}
