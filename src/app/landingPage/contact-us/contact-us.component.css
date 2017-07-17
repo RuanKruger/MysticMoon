@@ -1,5 +1,13 @@
 /*Contact sectiom*/
 
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+
 .content-header {
     font-family: 'Oleo Script', cursive;
     color: #fcc500;

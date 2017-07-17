@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Http } from "@angular/http";
 
 @Component({
   selector: 'app-contact-us',
@@ -6,18 +7,29 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-us.component.css']
 })
 export class ContactUsComponent implements OnInit {
-   
-  user = {name: '', email: '', telephone: '', message: ''}
 
-  constructor() { }
+  user = { name: '', subject: '', telephone: '', message: '' }
+  endpoint: string;
 
-  ngOnInit() {
+
+  constructor(private http: Http) {
+    this.http = http;
   }
 
-  test() {
-    console.log(this.user.name);
-    console.log(this.user.email);
-    console.log(this.user.telephone);
-    console.log(this.user.message);
+  ngOnInit() {
+    this.endpoint = "http://localhost:8000/sendEmail.php";
+  }
+  sendEmail() {
+    let postVars = {
+      email: this.user.subject,
+      name: this.user.name,
+      message: this.user.message
+    };
+
+    this.http.post(this.endpoint, postVars)
+      .subscribe(
+      response => console.log(response),
+      response => console.log(response)
+      )
   }
 }

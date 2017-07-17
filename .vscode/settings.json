@@ -1,5 +1,12 @@
 // Place your settings in this file to overwrite default and user settings.
 {
     "editor.insertSpaces": true,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "terminal.integrated.shell.windows": "C:/Program Files/Git/bin/bash.exe",
+    "typescript.check.tscVersion": false,
+    "editor.autoClosingBrackets": false,
+    "editor.autoIndent": false,
+    "files.autoSave": "afterDelay",
+    "editor.roundedSelection": false,
+    "editor.scrollBeyondLastLine": false
 }

@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { ItemsComponent } from './items/items.component';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { BrowserModule } from "@angular/platform-browser";
+import { HttpModule } from "@angular/http";
 
 @NgModule({
   imports: [
@@ -18,7 +19,8 @@ import { BrowserModule } from "@angular/platform-browser";
     GalleriaModule,
     FormsModule,
     NgxGalleryModule,
-    BrowserModule
+    BrowserModule,
+    HttpModule
 
   ],
   declarations: [

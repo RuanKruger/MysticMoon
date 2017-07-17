@@ -2,36 +2,38 @@
 
 
 <div class="section-content">
-	<h1 style="color: #555555;" class="section-header">Get in <span class="content-header"> Touch with us</span></h1>
-	<h3 style="color: #555555;">Sonja Kruger</h3>
-	<h4 style="color: #555555;">Tel: 083 280 7790</h4>
-	<a style="color: #555555;" href="mailto:sonjakruger9@gmail.com">Email: sonjakruger9@gmail.com</a>
+    <h1 style="color: #555555;" class="section-header">Get in <span class="content-header"> Touch with us</span></h1>
+    <h3 style="color: #555555;">Sonja Kruger</h3>
+    <h4 style="color: #555555;">Tel: 083 280 7790</h4>
+    <a style="color: #555555;" href="mailto:sonjakruger9@gmail.com">Email: sonjakruger9@gmail.com</a>
 </div>
 <div class="contact-section">
-	<div class="container">
-		<form>
-			<div class="col-md-6 form-line">
-				<div class="form-group">
-					<label for="exampleInputUsername">Your name</label>
-					<input [(ngModel)]="user.name" name="userFirstname" type="text" class="form-control" id="" placeholder=" Enter Name">
-				</div>
-				<div class="form-group">
-					<label for="exampleInputEmail">Email Address</label>
-					<input [(ngModel)]="user.email" name="userEmail" type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
-				</div>
-				<div class="form-group">
-					<label for="telephone">Mobile No.</label>
-					<input [(ngModel)]="user.telephone" name="userTelephone" type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="form-group">
-					<label for="description">Message</label>
-					<textarea [(ngModel)]="user.message" name="userMessage" class="form-control" id="description" placeholder="Enter Your Message"></textarea>
-				</div>
-				<div>
-					<button type="button" (click)="sendEmail()" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
-				</div>
-			</div>
-		</form>
-	</div>
+    <div class="container">
+        <form>
+            <div class="col-md-6 form-line">
+                <div class="form-group">
+                    <label for="exampleInputUsername"> Your name</label>
+                    <input [(ngModel)]="user.name" name="userFirstname" type="text" class="form-control" id="" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label> Subject</label>
+                    <input [(ngModel)]="user.subject" name="userEmail" class="form-control" placeholder="Enter Email Subject">
+                </div>
+                <div class="form-group">
+                    <label for="telephone"> Mobile No.</label>
+                    <input [(ngModel)]="user.telephone" name="userTelephone" type="tel" class="form-control" id="telephone" placeholder="Enter 10-digit mobile no.">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="description"> Message</label>
+                    <textarea [(ngModel)]="user.message" name="userMessage" class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                </div>
+                <div>
+                    <a type="button" class="btn btn-default submit" href="mailto:sonjakruger9@gmail.com?subject={{user.subject}}&body=Hi Sonja,%0D%0A%0D%0A{{user.message}}%0D%0A%0D%0A{{user.telephone}}%0D%0A{{user.name}}"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- <button type="button" (click)="sendEmail()" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button> -->
