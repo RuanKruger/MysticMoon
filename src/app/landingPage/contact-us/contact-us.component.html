@@ -5,7 +5,7 @@
 	<h1 style="color: #555555;" class="section-header">Get in <span class="content-header"> Touch with us</span></h1>
 	<h3 style="color: #555555;">Sonja Kruger</h3>
 	<h4 style="color: #555555;">Tel: 083 280 7790</h4>
-	<h4 style="color: #555555;">Email: sonjakruger9@gmail.com</h4>
+	<a style="color: #555555;" href="mailto:sonjakruger9@gmail.com">Email: sonjakruger9@gmail.com</a>
 </div>
 <div class="contact-section">
 	<div class="container">
@@ -30,7 +30,7 @@
 					<textarea [(ngModel)]="user.message" name="userMessage" class="form-control" id="description" placeholder="Enter Your Message"></textarea>
 				</div>
 				<div>
-					<button type="button" (click)="test()" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+					<button type="button" (click)="sendEmail()" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
 				</div>
 			</div>
 		</form>

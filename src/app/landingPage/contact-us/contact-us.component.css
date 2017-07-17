@@ -1,139 +1,176 @@
 /*Contact sectiom*/
-.content-header{
-  font-family: 'Oleo Script', cursive;
-  color:#fcc500;
-  font-size: 45px;
+
+.content-header {
+    font-family: 'Oleo Script', cursive;
+    color: #fcc500;
+    font-size: 45px;
 }
 
-.section-content{
-  text-align: center; 
-
+.section-content {
+    text-align: center;
 }
-#contact{
-    
+
+#contact {
     font-family: 'Teko', sans-serif;
-  padding-top: 60px;
-  width: 100%;
-  width: 100vw;
-  height: 550px;
-  background: #3a6186; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color : #fff;    
-}
-.contact-section{
-  padding-top: 40px;
-}
-.contact-section .col-md-6{
-  width: 50%;
+    padding-top: 60px;
+    width: 100%;
+    width: 100vw;
+    height: 550px;
+    background: #3a6186;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3a6186, #89253e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3a6186, #89253e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
 }
 
-.form-line{
-  border-right: 1px solid #B29999;
+.contact-section {
+    padding-top: 40px;
 }
 
-.form-group{
-  margin-top: 10px;
+.contact-section .col-md-6 {
+    width: 50%;
 }
-label{
-  font-size: 1.3em;
-  line-height: 1em;
-  font-weight: normal;
+
+.form-line {
+    border-right: 1px solid #B29999;
 }
-.form-control{
-  font-size: 1.3em;
-  color: #080808;
+
+.form-group {
+    margin-top: 10px;
 }
+
+label {
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+.form-control {
+    font-size: 1.3em;
+    color: #080808;
+}
+
 textarea.form-control {
     height: 135px;
-   /* margin-top: px;*/
+    /* margin-top: px;*/
 }
 
-.submit{
-  font-size: 1.1em;
-  float: right;
-  width: 150px;
-  background-color: transparent;
-  color:#080808;
-
+.submit {
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #080808;
 }
 
+
 /* latin-ext */
+
 @font-face {
-  font-family: 'Oleo Script';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Oleo Script'), local('OleoScript-Regular'), url(https://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjiYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'), url(https://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjiYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
+
+
 /* latin */
+
 @font-face {
-  font-family: 'Oleo Script';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Oleo Script'), local('OleoScript-Regular'), url(https://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'), url(https://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
+
+
 /* latin-ext */
+
 @font-face {
-  font-family: 'Oleo Script';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Oleo Script Bold'), local('OleoScript-Bold'), url(https://fonts.gstatic.com/s/oleoscript/v5/hudNQFKFl98JdNnlo363fujkDdvhIIFj_YMdgqpnSB0.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Oleo Script Bold'), local('OleoScript-Bold'), url(https://fonts.gstatic.com/s/oleoscript/v5/hudNQFKFl98JdNnlo363fujkDdvhIIFj_YMdgqpnSB0.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
+
+
 /* latin */
+
 @font-face {
-  font-family: 'Oleo Script';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Oleo Script Bold'), local('OleoScript-Bold'), url(https://fonts.gstatic.com/s/oleoscript/v5/hudNQFKFl98JdNnlo363folIZu-HDpmDIZMigmsroc4.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}/* devanagari */
-@font-face {
-  font-family: 'Teko';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Teko Regular'), local('Teko-Regular'), url(https://fonts.gstatic.com/s/teko/v6/ReWtp16HVyzdin1z_uvVFg.woff2) format('woff2');
-  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Oleo Script Bold'), local('OleoScript-Bold'), url(https://fonts.gstatic.com/s/oleoscript/v5/hudNQFKFl98JdNnlo363folIZu-HDpmDIZMigmsroc4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
-/* latin-ext */
-@font-face {
-  font-family: 'Teko';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Teko Regular'), local('Teko-Regular'), url(https://fonts.gstatic.com/s/teko/v6/3qReukiqUnKCO2w_puz9wQ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Teko';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Teko Regular'), local('Teko-Regular'), url(https://fonts.gstatic.com/s/teko/v6/VMJW7okK7q4rP_CIopIrIg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
+
+
 /* devanagari */
+
 @font-face {
-  font-family: 'Teko';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Teko Bold'), local('Teko-Bold'), url(https://fonts.gstatic.com/s/teko/v6/xfVA9McSf3r4Zw3XiobqW_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
-  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Teko Regular'), local('Teko-Regular'), url(https://fonts.gstatic.com/s/teko/v6/ReWtp16HVyzdin1z_uvVFg.woff2) format('woff2');
+    unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
 }
+
+
 /* latin-ext */
+
 @font-face {
-  font-family: 'Teko';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Teko Bold'), local('Teko-Bold'), url(https://fonts.gstatic.com/s/teko/v6/Pmw4xor8Ded5Fpinb3gclfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Teko Regular'), local('Teko-Regular'), url(https://fonts.gstatic.com/s/teko/v6/3qReukiqUnKCO2w_puz9wQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
+
+
 /* latin */
+
 @font-face {
-  font-family: 'Teko';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Teko Bold'), local('Teko-Bold'), url(https://fonts.gstatic.com/s/teko/v6/vZNHrtAXYeQN4tfAPqsxxw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Teko Regular'), local('Teko-Regular'), url(https://fonts.gstatic.com/s/teko/v6/VMJW7okK7q4rP_CIopIrIg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+/* devanagari */
+
+@font-face {
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Teko Bold'), local('Teko-Bold'), url(https://fonts.gstatic.com/s/teko/v6/xfVA9McSf3r4Zw3XiobqW_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Teko Bold'), local('Teko-Bold'), url(https://fonts.gstatic.com/s/teko/v6/Pmw4xor8Ded5Fpinb3gclfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Teko Bold'), local('Teko-Bold'), url(https://fonts.gstatic.com/s/teko/v6/vZNHrtAXYeQN4tfAPqsxxw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
